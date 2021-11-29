@@ -78,7 +78,6 @@ h2 {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 30px;
 }
 
 .flexbox {
@@ -86,4 +85,10 @@ h2 {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+
+/* Hero image */
+
+#hero-image {
+    height: 600px;
 }
