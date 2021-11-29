@@ -28,6 +28,10 @@ p {
     margin: 10px, 0;
 }
 
+img {
+    width: 100%;
+}
+
 /* Headings and logos */
 h1,
 h2 {
@@ -35,3 +39,11 @@ h2 {
     font-weight: 700;
     color: #2E2E2E;
 }
+
+#logo {
+    float: left;
+    font-size: 300%;
+
+}
+
+/* Navigation */
