@@ -64,6 +64,15 @@ h2 {
 .navbar a {
     padding: 20px;
     margin: 0 10px;
+
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid #2E2E2E;
+}
+
+.active {
+    border-bottom: 1px solid #2E2E2E;
 }
 
 .container {
