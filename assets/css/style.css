@@ -47,3 +47,34 @@ h2 {
 }
 
 /* Navigation */
+
+.navbar {
+    background-color: #C8E6C9;
+    color: #2E2E2E;
+    height: 100px;
+}
+
+.navbar ul {
+    display: flex;
+    font-size: 150%;
+    font-weight: 700;
+
+}
+
+.navbar a {
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
