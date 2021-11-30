@@ -122,3 +122,10 @@ h3 {
     text-align: center;
     font-weight: 700;
 }
+
+/* icons */
+i {
+    font-size: 220%;
+    color: green;
+    padding-bottom: 15px;
+}
