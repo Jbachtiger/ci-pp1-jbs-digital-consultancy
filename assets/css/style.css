@@ -34,7 +34,8 @@ img {
 
 /* Headings and logos */
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #2E2E2E;
@@ -100,6 +101,7 @@ h2 {
     width: 33.33%;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 70px;
 }
 
 /* Clear floats after the columns */
@@ -112,4 +114,11 @@ h2 {
 .column p {
     font-size: 15px;
     padding-top: 10px;
+}
+
+
+/* Homepage - Services we offer section */
+#services {
+    text-align: center;
+    font-weight: 700;
 }
