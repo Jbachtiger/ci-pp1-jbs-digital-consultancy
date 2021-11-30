@@ -108,3 +108,8 @@ h2 {
     display: table;
     clear: both;
 }
+
+.column p {
+    font-size: 15px;
+    padding-top: 10px;
+}
