@@ -79,6 +79,7 @@ h3 {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    overflow: auto;
 }
 
 .flexbox {
@@ -101,7 +102,7 @@ h3 {
     width: 33.33%;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
 }
 
 /* Clear floats after the columns */
@@ -123,10 +124,12 @@ h3 {
 #services {
     text-align: center;
     font-weight: 700;
+    padding-top: 10px;
 }
 
 #services-space {
-    height: 600px;
+    height: 400px;
+    background-color: rgba(158, 206, 226, 0.3);
 }
 
 /* Services we offer icons */
@@ -143,6 +146,10 @@ footer {
     padding-left: 30px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+footer p {
+    font-size: 14px;
 }
 
 footer ul {
