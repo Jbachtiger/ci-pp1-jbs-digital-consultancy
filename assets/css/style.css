@@ -167,3 +167,38 @@ footer ul {
     padding-top: 10px;
     color: #2E2E2E;
 }
+
+/* About us */
+.left-about {
+    padding: 30px;
+    width: 50%;
+    float: left;
+    clear: both;
+}
+
+#right-about {
+    display: flex;
+    justify-content: right;
+    padding-top: 50px;
+
+}
+
+/* Circle image - Code taken from Code Institute Love Running Project and edited */
+
+#circle-container {
+    width: 375px;
+    height: 375px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #9ECEE2;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+#circle-cover-bg {
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
