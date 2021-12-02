@@ -95,8 +95,8 @@ h3 {
     height: 600px;
 }
 
-/* Intro Paragraphs - the base code was taken from w3schools and I added more styling to this - https://www.w3schools.com/howto/howto_css_three_columns.asp*/
-
+/* Intro Paragraphs */
+/* Credit - the base code was taken from w3schools and adapted - https://www.w3schools.com/howto/howto_css_three_columns.asp */
 .column {
     float: left;
     width: 33.33%;
@@ -183,7 +183,7 @@ footer ul {
 
 }
 
-/* Circle image - Code taken from Code Institute Love Running Project and edited */
+/* Credit - Circle image code taken from Code Institute Love Running Project and adapted */
 
 #circle-container {
     width: 375px;
@@ -204,9 +204,24 @@ footer ul {
 }
 
 /* Services */
+
 .column2 {
-    float: left;
+    float: right;
     width: 50%;
+    padding: 30px 0;
+}
+
+.column2 h2 {
+    padding: 20px;
+}
+
+.column2 p {
+    padding: 20px;
+}
+
+.column2 img {
+    height: 80%;
+    width: 80%;
 }
 
 /* Clear floats after the columns */
