@@ -47,6 +47,44 @@ h3 {
 
 }
 
+/* Button */
+/* Credit - button style created using following tool https://buttonoptimizer.com/ and modified by myself */
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    margin: 10px;
+    border: 1px solid #ffa600;
+    border-radius: 30px;
+    background: #ffa600;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffa600), to(#ffa600));
+    background: -moz-linear-gradient(top, #ffa600, #ffa600);
+    background: linear-gradient(to bottom, #ffa600, #ffa600);
+    font: normal normal bold 18px Open Sans;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+    border: 1px solid #ffbf00;
+    background: #ffc700;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffc700), to(#ffc700));
+    background: -moz-linear-gradient(top, #ffc700, #ffc700);
+    background: linear-gradient(to bottom, #ffc700, #ffc700);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button:active {
+    background: #996400;
+    background: -webkit-gradient(linear, left top, left bottom, from(#996400), to(#ffa600));
+    background: -moz-linear-gradient(top, #996400, #ffa600);
+    background: linear-gradient(to bottom, #996400, #ffa600);
+}
+
+
 /* Navigation */
 
 .navbar {
@@ -214,12 +252,15 @@ footer ul {
 .column2 h2 {
     padding: 20px;
     background-color: rgba(158, 206, 226, 0.3);
+    margin-right: 50px;
 
 }
 
 .column2 p {
     padding: 0 20px 20px 20px;
     background-color: rgba(158, 206, 226, 0.3);
+    margin-right: 50px;
+
 }
 
 .column2 img {
