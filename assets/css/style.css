@@ -282,7 +282,7 @@ footer ul {
     display: flex;
     flex-direction: column;
     padding: 40px;
-    margin: 50px 225px;
+    margin: 40px auto;
     max-width: 675px;
     border-radius: 30px;
     color: #2E2E2E;
@@ -317,10 +317,18 @@ textarea {
     margin-bottom: 5px;
 }
 
-/* .submit-button {
-    background-color: #9ECEE2;
-    display: block;
-    border-radius: 5px;
-    color: #2E2E2E;
-    font-size: 100%;
-} */
+#submit-button {
+    display: inline-block;
+    background-color: #FFA500;
+    color: #fff;
+    border: 1px solid #ffa600;
+    border-radius: 30px;
+    font: normal normal bold 18px Open Sans;
+    font-size: 120%;
+    width: auto;
+    padding: 12px 24px;
+    text-align: center;
+    align-self: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
