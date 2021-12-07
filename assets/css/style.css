@@ -275,3 +275,8 @@ footer ul {
     display: table;
     clear: both;
 }
+
+/* Contact */
+#form-background {
+    background-color: #9ECEE2;
+}
