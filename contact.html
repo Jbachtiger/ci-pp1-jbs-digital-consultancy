@@ -40,32 +40,27 @@
             </div>
         </div>
     </header>
-    <section class="form" id="form-background">
+    <section>
         <div class="container">
-            <form action="" method="Post">
+            <form action="" method="Post" class="form">
                 <h3>Got a project in mind?</h3>
                 <h2>Find out how we can help.</h2>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="full_name" required>
+                <input type="text" id="name" name="full_name" class="text-input" required>
                 <label for="email">Email Address</label>
-                <input type="text" id="email" name="email_address" required>
+                <input type="text" id="email" name="email_address" class="text-input" required>
                 <label for="company">Company Name</label>
-                <input type="text" id="company" name="company_name" required>
+                <input type="text" id="company" name="company_name" class="text-input" required>
                 <label for="phone">Phone Number</label>
-                <input type="text" id="phone" name="phone_number" required>
-                <p>Services interested in?</p>
-                <label for="website_development">Website Development</label>
-                <input type="checkbox" id="website_development" name="website_development">
-                <label for="adwords">Google Advertising</label>
-                <input type="checkbox" id="adwords" name="adwords">
-                <label for="SEO">SEO</label>
-                <input type="checkbox" id="SEO" name="SEO">
-                <label for="email_marketing">Email Marketing</label>
-                <input type="checkbox" id="email_marketing" name="email_marketing">
-                <label for="copywriting">Copywriting</label>
-                <input type="checkbox" id="copywriting" name="copywriting">
-                <label for="social_media">Social Media</label>
-                <input type="checkbox" id="social_media" name="social_media">
+                <input type="text" id="phone" name="phone_number" class="text-input" required>
+                <label for="services">Service intested in?</label>
+                <select name="services-offered" id="services-offered">
+                    <option value="adwords">Google Advertising</option>
+                    <option value="seo">SEO</option>
+                    <option value="email_marketing">Email Marketing</option>
+                    <option value="copywriting">Copywriting</option>
+                    <option value="social">Social Media</option>
+                </select>
                 <label for="more_info">Further comments</label>
                 <textarea name="more_info" id="more_info" cols="30" rows="10" placeholder="What are trying to achieve?"></textarea>
                 <input type="submit" value="Submit">
