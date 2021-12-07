@@ -331,4 +331,9 @@ textarea {
     align-self: center;
     vertical-align: middle;
     text-decoration: none;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #2600ff;
 }
