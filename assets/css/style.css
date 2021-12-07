@@ -302,13 +302,25 @@ h3 {
     padding: 10px 5px 0;
     border: 1px solid #C8E6C9;
     border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
 }
 
-.checkbox-input {
-    padding: 10px 5px 0;
-    border: 1px solid #C8E6C9;
+textarea {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#services-offered {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* .submit-button {
+    background-color: #9ECEE2;
+    display: block;
     border-radius: 5px;
-}
-
-.submit-button {}
+    color: #2E2E2E;
+    font-size: 100%;
+} */
