@@ -136,7 +136,7 @@ h3 {
 
 /* Intro Paragraphs */
 /* Credit - the base code was taken from w3schools and adapted - https://www.w3schools.com/howto/howto_css_three_columns.asp */
-.column {
+.column-intro {
     float: left;
     width: 33.33%;
     text-align: center;
@@ -172,7 +172,15 @@ h3 {
 }
 
 /* Services we offer icons */
-.services-icon i {
+.icons {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.icons i {
     font-size: 220%;
     color: green;
     padding-bottom: 15px;
@@ -356,3 +364,7 @@ textarea {
 #submit-button:hover {
     background-color: #2600ff;
 }
+
+/* Media queries */
+/* For large and medium screens */
+@media screen and (max-width: 1200px) {}
