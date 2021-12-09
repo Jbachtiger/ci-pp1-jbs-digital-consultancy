@@ -167,9 +167,9 @@ h3 {
     padding-top: 10px;
 }
 
-#services-space {
-    height: 400px;
+#services-container {
     background-color: rgba(158, 206, 226, 0.3);
+    padding-top: 10px;
 }
 
 /* Services we offer icons */
@@ -397,10 +397,10 @@ textarea {
 
     }
 
-
     .column2 {
         width: 100%;
         text-align: center;
+        padding: 20px 0;
     }
 
     .column2 h2,
@@ -415,6 +415,10 @@ textarea {
 
     }
 
+    .button {
+        margin-top: 30px;
+    }
+
 }
 
 /* For medium screens sizes from 800px wide and down */
@@ -422,14 +426,44 @@ textarea {
 
     .column-intro {
         width: 100%;
+        text-align: center;
+        padding: 0;
 
+    }
+
+    .column-intro h2,
+    p {
+        text-align: center;
+        margin: 20px;
     }
 
     .icons {
 
-        width: 100%;
+        float: right;
+        width: 50%;
+        padding: 20px 0;
     }
 
+    .navbar {
+        height: 110px;
+        font-size: 70%;
+        font-weight: 700;
+    }
 
+    .navbar .flexbox {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+    }
+
+    .left-about h2,
+    p {
+        padding: 0;
+        text-align: center;
+        margin: 0;
+        width: auto;
+    }
 
 }
