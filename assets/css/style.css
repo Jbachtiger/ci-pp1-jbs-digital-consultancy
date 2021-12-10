@@ -138,6 +138,10 @@ h3 {
 
 /* Intro Paragraphs */
 /* Credit - the base code was taken from w3schools and adapted - https://www.w3schools.com/howto/howto_css_three_columns.asp */
+#section-container-intro {
+    padding: 50px 0;
+}
+
 .column-intro {
     float: left;
     width: 33.33%;
@@ -158,6 +162,7 @@ h3 {
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 20px;
 }
 
 
@@ -170,7 +175,7 @@ h3 {
 
 #services-container {
     background-color: rgba(158, 206, 226, 0.3);
-    padding-top: 10px;
+    padding: 32px 0;
 }
 
 /* Services we offer icons */
@@ -215,6 +220,10 @@ footer ul {
     margin: 1%;
     padding-top: 10px;
     color: #2E2E2E;
+}
+
+.footer-icons:hover {
+    color: black;
 }
 
 /* About us */
