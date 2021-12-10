@@ -227,11 +227,14 @@ footer ul {
 }
 
 /* About us */
+.flex-about {
+    display: flex;
+    align-items: center;
+}
+
 .left-about {
     padding: 40px 30px;
-    width: 50%;
-    float: left;
-    clear: both;
+    width: 90%;
 }
 
 #right-about {
@@ -244,14 +247,14 @@ footer ul {
 /* Credit - Circle image code taken from Code Institute Love Running Project and adapted */
 
 #circle-container {
-    width: 375px;
-    height: 375px;
+    width: 300px;
+    height: 300px;
     padding: 20px;
     border-style: solid;
     border-color: #9ECEE2;
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin-right: 10px;
 
 }
 
