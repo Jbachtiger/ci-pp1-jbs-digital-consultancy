@@ -318,7 +318,7 @@ footer ul {
 }
 
 /* Contact */
-
+/* Credit - box shadow style taken from https://getcssscan.com/css-box-shadow-examples */
 .form {
     display: flex;
     flex-direction: column;
@@ -328,6 +328,7 @@ footer ul {
     border-radius: 30px;
     color: #2E2E2E;
     background-color: rgba(158, 206, 226, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .form h2 {
@@ -340,7 +341,7 @@ h3 {
 }
 
 .text-input {
-    padding: 10px 5px 0;
+    padding: 10px;
     border: 1px solid #000;
     border-radius: 5px;
     margin-top: 5px;
@@ -351,11 +352,17 @@ h3 {
 textarea {
     margin-top: 10px;
     margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 #services-offered {
     margin-top: 5px;
     margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 #submit-button {
@@ -376,7 +383,7 @@ textarea {
 }
 
 #submit-button:hover {
-    background-color: #2600ff;
+    opacity: 0.8;
 }
 
 /* Media queries */
