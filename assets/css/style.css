@@ -284,24 +284,24 @@ footer ul {
 
 /* Services */
 
+.column2-background {
+    background-color: rgba(158, 206, 226, 0.3);
+    padding: 16px 0;
+}
+
 .column2 {
     float: right;
     width: 50%;
-    padding: 30px 0;
+    margin: 30px 0;
 }
 
 .column2 h2 {
     padding: 20px;
-    background-color: rgba(158, 206, 226, 0.3);
     margin-right: 50px;
-
 }
 
 .column2 p {
     padding: 0 20px 20px 20px;
-    background-color: rgba(158, 206, 226, 0.3);
-    margin-right: 50px;
-
 }
 
 .column2 img {
