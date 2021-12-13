@@ -391,9 +391,6 @@ textarea {
 @media screen and (max-width: 1140px) {
 
     #right-about {
-        clear: both;
-        width: 100%;
-        float: left;
         padding-bottom: 30px;
         padding-top: 20px;
 
@@ -407,7 +404,13 @@ textarea {
 
     .left-about p {
         padding: 10px 50px 10px 10px;
-        margin-right: 50px;
+        text-align: center;
+    }
+
+    .flex-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     #circle-container {
@@ -426,7 +429,7 @@ textarea {
     .column2 h2,
     p {
         text-align: center;
-        margin-left: 50px;
+        margin: 10px;
     }
 
     .column2 img {
@@ -443,6 +446,10 @@ textarea {
 
 /* For medium screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
+
+    #section-container-intro {
+        padding: 20px 50px 30px;
+    }
 
     .column-intro {
         width: 100%;
@@ -480,10 +487,9 @@ textarea {
 
     .left-about h2,
     p {
-        padding: 0;
-        text-align: center;
         margin: 0;
         width: auto;
     }
-
 }
+
+/* For small screen sizes from 500px wide and down */
