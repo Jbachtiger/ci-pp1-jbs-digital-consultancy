@@ -493,3 +493,23 @@ textarea {
 }
 
 /* For small screen sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
+
+    .icons {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .left-about h2,
+    p {
+        padding: 20px;
+
+    }
+
+    #circle-container {
+        width: 275px;
+        height: 275px;
+        padding: 5px;
+
+    }
+}
