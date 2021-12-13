@@ -1,5 +1,5 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap");
 
 /* General */
 * {
@@ -9,9 +9,9 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
-    color: #2E2E2E;
+    color: #2e2e2e;
     line-height: 1.5;
 }
 
@@ -21,11 +21,11 @@ ul {
 
 a {
     text-decoration: none;
-    color: #2E2E2E;
+    color: #2e2e2e;
 }
 
 p {
-    margin: 10px, 0;
+    margin: 10px 0;
 }
 
 img {
@@ -36,15 +36,14 @@ img {
 h1,
 h2,
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    color: #2E2E2E;
+    color: #2e2e2e;
 }
 
 #logo {
     float: left;
     font-size: 300%;
-
 }
 
 /* Button */
@@ -84,12 +83,11 @@ h3 {
     background: linear-gradient(to bottom, #996400, #ffa600);
 }
 
-
 /* Navigation */
 
 .navbar {
-    background-color: #C8E6C9;
-    color: #2E2E2E;
+    background-color: #c8e6c9;
+    color: #2e2e2e;
     height: 100px;
 }
 
@@ -97,21 +95,19 @@ h3 {
     display: flex;
     font-size: 150%;
     font-weight: 700;
-
 }
 
 .navbar a {
     padding: 20px;
     margin: 0 10px;
-
 }
 
 .navbar a:hover {
-    border-bottom: 1px solid #2E2E2E;
+    border-bottom: 1px solid #2e2e2e;
 }
 
 .active {
-    border-bottom: 1px solid #2E2E2E;
+    border-bottom: 1px solid #2e2e2e;
 }
 
 .container {
@@ -134,7 +130,6 @@ h3 {
     width: 100%;
     object-fit: cover;
 }
-
 
 /* Intro Paragraphs */
 /* Credit - the base code was taken from w3schools and adapted - https://www.w3schools.com/howto/howto_css_three_columns.asp */
@@ -164,7 +159,6 @@ h3 {
     padding-right: 20px;
     margin-top: 20px;
 }
-
 
 /* Homepage - Services we offer section */
 #services {
@@ -196,7 +190,7 @@ h3 {
 /* Footer */
 footer {
     height: 100px;
-    background-color: #C8E6C9;
+    background-color: #c8e6c9;
     padding-left: 30px;
     padding-bottom: 10px;
     text-align: center;
@@ -208,7 +202,6 @@ footer p {
 
 footer ul {
     text-align: center;
-
 }
 
 .footer-links>li {
@@ -219,7 +212,7 @@ footer ul {
     font-size: 200%;
     margin: 1%;
     padding-top: 10px;
-    color: #2E2E2E;
+    color: #2e2e2e;
 }
 
 .footer-icons:hover {
@@ -241,7 +234,6 @@ footer ul {
     display: flex;
     justify-content: right;
     padding-top: 50px;
-
 }
 
 /* Credit - Circle image code taken from Code Institute Love Running Project and adapted */
@@ -251,15 +243,14 @@ footer ul {
     height: 300px;
     padding: 20px;
     border-style: solid;
-    border-color: #9ECEE2;
+    border-color: #9ecee2;
     border-width: 1px;
     border-radius: 50%;
     margin-right: 10px;
-
 }
 
 #circle-cover-bg {
-    background: url('../images/jb_300x300.jpg') no-repeat center center;
+    background: url("../images/jb_300x300.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 
@@ -326,7 +317,7 @@ footer ul {
     margin: 40px auto;
     max-width: 675px;
     border-radius: 30px;
-    color: #2E2E2E;
+    color: #2e2e2e;
     background-color: rgba(158, 206, 226, 0.3);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -346,7 +337,6 @@ h3 {
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-
 }
 
 textarea {
@@ -367,7 +357,7 @@ textarea {
 
 #submit-button {
     display: inline-block;
-    background-color: #FFA500;
+    background-color: #ffa500;
     color: #fff;
     border: 1px solid #ffa600;
     border-radius: 30px;
@@ -389,11 +379,9 @@ textarea {
 /* Media queries */
 /* For large and medium screens wide and down */
 @media screen and (max-width: 1140px) {
-
     #right-about {
         padding-bottom: 30px;
         padding-top: 20px;
-
     }
 
     .left-about {
@@ -417,7 +405,6 @@ textarea {
         width: 300px;
         height: 300px;
         padding: 10px;
-
     }
 
     .column2 {
@@ -435,18 +422,15 @@ textarea {
     .column2 img {
         height: 50%;
         width: 50%;
-
     }
 
     .button {
         margin-top: 30px;
     }
-
 }
 
 /* For medium screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
-
     #section-container-intro {
         padding: 20px 50px 30px;
     }
@@ -455,7 +439,6 @@ textarea {
         width: 100%;
         text-align: center;
         padding: 0;
-
     }
 
     .column-intro h2,
@@ -465,7 +448,6 @@ textarea {
     }
 
     .icons {
-
         float: right;
         width: 50%;
         padding: 20px 0;
@@ -494,7 +476,6 @@ textarea {
 
 /* For small screen sizes from 500px wide and down */
 @media screen and (max-width: 500px) {
-
     .icons {
         width: 100%;
         padding: 30px 0;
@@ -503,7 +484,6 @@ textarea {
     .left-about h2,
     p {
         padding: 20px;
-
     }
 
     #circle-container {
