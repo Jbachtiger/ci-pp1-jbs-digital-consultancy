@@ -1,108 +1,153 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# PP1 - HTML/CSS Essentials - JBs Digital Consultancy
 
-Welcome Jbachtiger,
+JB's Digital Consultancy is a site aimed at promoting digital marketing and website development services. It's purpose is to provide users information on the types of services the agency can provide to help them generate more enquires and sales. It is a way to promote my digital services and generate online enquires through form fills. JB's Digital Consultancy is targeted at small businesses that need help with their marketing/online presence. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive Mockup](readme-content/media/website-screenshots.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Live Site
 
-## Gitpod Reminders
+[JB's Digital Consultancy](https://jbachtiger.github.io/ci-pp1-jbs-digital-consultancy/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Repository
+[https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy](https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy)
 
-`python3 -m http.server`
+## Features 
 
-A blue button should appear to click: _Make Public_,
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-Another blue button should appear to click: _Open Browser_.
+### Existing Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Navigation Bar__
 
-A blue button should appear to click: _Make Public_,
+  - The navigation bar is featured on all four pages, is responsive and including links to the Logo, Homepage, About, Services and Contact pages. It is identical in each page to ensure easy navigation and a good user experience. 
+  - The purpose of this section is to allow the user to navigate the pages easily across all devices without having to use a back button to get to the next page.
 
-Another blue button should appear to click: _Open Browser_.
+![Nav Bar](readme-content/media/nav-bar.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __Hero Images__
 
-To log into the Heroku toolbelt CLI:
+  - Each page includes a hero image at the top of it that is relevant to that section. The homepage and about pages have images related to Brighton which is where the agency is based. Where as the services and contact page have images that can be associated with those topics more. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Hero Image](readme-content/media/index-hero-image.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Hero Image](readme-content/media/about-hero-image.png)
 
-------
+![Hero Image](readme-content/media/services-hero-image.png)
 
-## Release History
+![Hero Image](readme-content/media/contact-hero-image.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __Introduction Section__
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  - The introduction section is one of the first pieces of content you see. This provides a quick overview of who we are, what we do and how our services can help the potential user.  
+  - The user will be able to make a quick decision based on this whether the outcomes align with their objectives and if they wish to investigate further.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Intro](readme-content/media/intro-section.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __Services We Offer Section__
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - This section will allow the user to see exactly  what services the business offers and if there is anything that may align with their needs.
+  - It is accompanied with logos for each service that represents that service meaning the user does not have to read the text if they don't wish to in order to still get a good grasp of the service.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Services we offer](readme-content/media/services-we-offer-section.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- __The Footer__ 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  - The footer section includes links to the relevant social media sites for JB's Digital Consultancy. The links all open to a new tab to allow easy navigation for the user. They also have a hover effect added to them to make it more obvious that they are clickable.
+  - The footer a good way to encourage users to connect via social media and spread the word about the business.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Footer](readme-content/media/footer.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- __About__
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  - The about page will provide the user with a more detailed overview of the business and myself (the owner). This will give users a better understanding of the agencies experience, the motivations behind it and how working with us can help them. 
+  - This section builds upon the intro section and provides more in-depth content about the agency to reinforce what has already been said on the homepage.  
+  - A circular image of my face has also been added to this page to put a face to a name and build trust with the user. The image has been animated to make it more eye catching.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![About](readme-content/media/about.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- __Services__
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+  - This page will provide a short summary of each of the services we offer accompanied with a call to action button which guides them to fill out a form. 
+  - Images have also been used to make the page more attractive and convey the message across throguh words as well as visually.
+  - The main purpose of the buttons is for lead generation and the colour orange was chosen as this colour is proven to help increase click through rates.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Services](readme-content/media/services.png)
 
-------
+- __Contact__
 
-## FAQ about the uptime script
+  - This page is where the form sits. It has six fields that need inputting of which some are required and others not. The user will be able to click on this page to make an enquiry and discuss the services offered in more detail. They can choose which service they are interested in or if they wish to discuss all of them. 
+  - The form has box shadowing on it and a black border on the input fields to make it stand out.
+  - The button is orange and has an opacity on it to provide a visual queue to the user when they click on it. 
 
-**Why have you added this script?**
+![Contact](readme-content/media/contact.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+### Features Left to Implement
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- Add a portfolio page to display testimonials and case studies.
+- Add a blog page to be able to ensure the website get's consistent fresh long form content that is industry relevant and targeted to specific keywords that will help the websites SEO and gain more organic visitors.
+- Make use of videos for the service page, discussing what each service is in more detail.
+- Create a burger menu for mobile view - this will especially be needed when more pages are added to the menu.
+- Currently the form on the contact page uses the Code Institute form dump url as I have not yet learned how to create the script needed in order to make the form function correctly without it.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Testing 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+The main focus of the testing is on HTML and CSS as these are the two languages that were used to create the static website. The testing carried out ensures that the functionality and visual aspects of the website all work as intended. Testing will be done using numerous devices and browsers, ensuring all UX is up to scratch as well as testing the websites accessibility, SEO and validation. I have checked the following:
 
-**So….?**
+- The overall website navigational experience, ensuring each page is easy to access and there is a clear and logical flow.
+- All internal, outgoing and anchor elements work correctly. External links open up in a new tab.
+- All forms are working as expected including script checks e.g. if a user fills in a mandatory field in a form an error message is shown, default values are being populated, optimally formatted for better readability and form is correctly linked to Code Institute form dump on submit.
+- Contrast checks should report no errors.
+- Validation checks for HTML and CSS should report no errors. 
+- Lighthouse test scores should be high (above 90).
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+I have tested the website across the three major browsers - Goolge, Firefox and Microsoft Edge. For each browser, functionality was tested including links and the responsive design. The website performed as intended and the responsive design was checked using developer tools across multiple devices with structural integrity holding for the various sizes. 
 
-**Can I opt out?**
+Each page has been put through the official W3C Validator, the index page and CSS reports are shown below.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![Index HTML Report](readme-content/media/html-checker.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![CSS Report](readme-content/media/css-checker.png)
 
-**Anything more?**
+I have checked the websites color contrast using two tools. The first being WebAim providing information the right colour combinations for foreground and background colours to ensure a good contrast ratio. Secondly, I checked the websites colour contrast using a Color Contrast Accessibility Validator by a11y. The results are shown below.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![Colour Contrast Report](readme-content/media/colour-contrast.png)
 
----
+I have used Chromes Lighthouse tool to run a test and audit the entire website. The results are shown below.
 
-Happy coding!
+- Desktop  
+![Desktop Report](readme-content/media/lighthouse-desktop.png)
+
+- Mobile  
+![Mobile Report](readme-content/media/lighthouse-mobile.png)
+
+### Solved Bugs
+
+### Known Bugs
+
+There are no known bugs left in this project.
+
+## Deployment
+
+This site was deployed to Github pages by following these steps:
+
+1. Login/Signup to Github.
+2. Navigate to relevant Github repository [here](https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy).
+3. Click on the Settings tab, on the navigation menu under the repository name.
+4. Scroll down the menu to the second to last item named "Pages" and click into it.
+5. Under source, choose which branch to deploy. For our purposes choose main branch.
+6. Choose the folder to deploy from, in this case /(root).
+7. Click "Save" and wait for website to deploy. This can take a couple minutes.
+8. Your URL will be display above "Source".
+
+## Credits 
+
+### Code
+
+### Content 
+
+### Resources
+
+### Media
+
+### Acknowledgments 
