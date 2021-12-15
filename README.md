@@ -82,13 +82,14 @@ In this section, you should go over the different parts of your project, and des
 ![Contact](readme-content/media/contact.png)
 
 
-### Features Left to Implement
+### Future Development
 
 - Add a portfolio page to display testimonials and case studies.
 - Add a blog page to be able to ensure the website get's consistent fresh long form content that is industry relevant and targeted to specific keywords that will help the websites SEO and gain more organic visitors.
 - Make use of videos for the service page, discussing what each service is in more detail.
 - Create a burger menu for mobile view - this will especially be needed when more pages are added to the menu.
 - Currently the form on the contact page uses the Code Institute form dump url as I have not yet learned how to create the script needed in order to make the form function correctly without it.
+- Create an email newsletter signup form.
 
 ## Testing 
 
@@ -143,10 +144,21 @@ This site was deployed to Github pages by following these steps:
 ## Credits 
 
 ### Code
+1. [Google Fonts](https://fonts.google.com/) - used to import fonts to website.
+2. [Button Optimizer](https://buttonoptimizer.com/) - a button generator tool.
+3. [W3Schools](https://www.w3schools.com/howto/howto_css_three_columns.asp) - utlilsed code to create three columns.
+4. [Love Running Project](https://github.com/Jbachtiger/love-running/blob/main/assets/css/style.css) - used base code for the circle container and zoom effect code.
+5. [CSS Scan](https://getcssscan.com/css-box-shadow-examples) - used code to create a box shadow.
+6. [Font Awesome](https://fontawesome.com/) - Library of icons used for social media and services we offer.
+
+
+
+
 
 ### Content 
 
 ### Resources
+1. [TinyPNG](https://tinypng.com/) - used to compress images.
 
 ### Media
 
