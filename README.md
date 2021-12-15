@@ -150,16 +150,10 @@ This site was deployed to Github pages by following these steps:
 4. [Love Running Project](https://github.com/Jbachtiger/love-running/blob/main/assets/css/style.css) - used base code for the circle container and zoom effect code.
 5. [CSS Scan](https://getcssscan.com/css-box-shadow-examples) - used code to create a box shadow.
 6. [Font Awesome](https://fontawesome.com/) - Library of icons used for social media and services we offer.
-
-
-
-
-
-### Content 
-
-### Resources
-1. [TinyPNG](https://tinypng.com/) - used to compress images.
+7. [TinyPNG](https://tinypng.com/) - used to compress images.
 
 ### Media
+1. All stock images are royalty free and taken from the following sites: [Unsplash](https://unsplash.com/) and [Raw Pixel](https://www.rawpixel.com/).
+2. Image on about page is a personal profile picture taken by myself.
 
 ### Acknowledgments 
