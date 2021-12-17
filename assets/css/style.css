@@ -234,7 +234,7 @@ footer ul {
 #right-about {
     display: flex;
     justify-content: right;
-    padding-top: 50px;
+    padding: 50px;
 }
 
 /* Credit - Circle image code taken from Code Institute Love Running Project and adapted */
@@ -381,7 +381,6 @@ textarea {
 /* For large and medium screens wide and down */
 @media screen and (max-width: 1140px) {
     #right-about {
-        padding-bottom: 30px;
         padding-top: 20px;
     }
 
