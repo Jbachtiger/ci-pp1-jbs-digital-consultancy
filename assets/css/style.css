@@ -308,6 +308,12 @@ footer ul {
     padding: 0 50px;
 }
 
+.services-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Contact */
 /* Credit - box shadow style taken from https://getcssscan.com/css-box-shadow-examples */
 .form-section {
