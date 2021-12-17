@@ -152,8 +152,7 @@ h3 {
     clear: both;
 }
 
-.column p {
-    font-size: 15px;
+.column-intro p {
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
