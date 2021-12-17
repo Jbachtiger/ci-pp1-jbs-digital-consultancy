@@ -311,6 +311,10 @@ footer ul {
 
 /* Contact */
 /* Credit - box shadow style taken from https://getcssscan.com/css-box-shadow-examples */
+.form-section {
+    background-color: rgba(158, 206, 226, 0.3);
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -319,7 +323,7 @@ footer ul {
     max-width: 675px;
     border-radius: 30px;
     color: #2e2e2e;
-    background-color: rgba(158, 206, 226, 0.3);
+    background-color: rgba(158, 206, 226, 0.5);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
@@ -375,6 +379,7 @@ textarea {
 
 #submit-button:hover {
     opacity: 0.8;
+
 }
 
 /* Media queries */
