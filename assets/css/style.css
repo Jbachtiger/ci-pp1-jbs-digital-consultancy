@@ -426,23 +426,6 @@ textarea {
         padding: 10px;
     }
 
-    .half-column {
-        width: 100%;
-        text-align: center;
-        padding: 20px 0;
-    }
-
-    .half-column h2,
-    p {
-        text-align: center;
-        margin: 10px;
-    }
-
-    .half-column img {
-        height: 50%;
-        width: 50%;
-    }
-
     .button {
         margin-top: 30px;
     }
