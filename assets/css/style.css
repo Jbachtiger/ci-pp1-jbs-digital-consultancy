@@ -232,6 +232,9 @@ footer ul {
 .left-about {
     padding: 40px 30px;
     width: 90%;
+    background-color: rgba(158, 206, 226, 0.3);
+    border: 1px solid black;
+    margin: 10px 0 10px 10px;
 }
 
 #right-about {
@@ -407,6 +410,7 @@ textarea {
         width: auto;
         text-align: center;
         padding: 20px;
+        margin: 10px;
     }
 
     .left-about p {
