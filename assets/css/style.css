@@ -279,36 +279,36 @@ footer ul {
 
 /* Services */
 
-.two-columns-background {
+.column-services-background {
     background-color: rgba(158, 206, 226, 0.3);
     padding: 16px 0;
     border: 1px solid black;
 }
 
-.row {
+.row-container-services {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
 
-.two-columns {
+.column-services {
     flex: 33.33%;
     margin: 10px;
 }
 
-.two-columns h2 {
+.column-services h2 {
     padding: 20px;
     margin-right: 50px;
     text-align: center;
 }
 
-.two-columns p {
+.column-services p {
     padding: 0 20px 20px 20px;
     text-align: center;
 }
 
-.two-columns img {
+.column-services img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -316,7 +316,7 @@ footer ul {
     border-radius: 10px;
 }
 
-.services-btn {
+.btn-services {
     display: flex;
     justify-content: center;
     align-items: center;
