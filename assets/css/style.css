@@ -192,12 +192,10 @@ h3 {
 
 /* Footer */
 footer {
-    height: 110px;
     background-color: #c8e6c9;
     padding-left: 30px;
     padding-bottom: 10px;
     text-align: center;
-    overflow: hidden;
 }
 
 footer p {
