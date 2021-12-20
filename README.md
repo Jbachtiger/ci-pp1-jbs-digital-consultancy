@@ -11,11 +11,30 @@ JB's Digital Consultancy is a site aimed at promoting digital marketing and webs
 ## Repository
 [https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy](https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy)
 
+## Table of Contents
+- [Features](#features)
+  - [Future Development](#future-development)
+
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libaries and Programs Used](#frameworks-libaries-and-programs-used)
+
+- [Testing](#testing)
+  - [W3C Validator](#w3c-validator)
+  - [Colour Contrast Checks](#colour-contrast-checks)
+  - [Lighthouse Tool](#lighthouse-tool)
+  - [Solved Bugs](#solved-bugs)
+  - [Known Bugs](#known-bugs)
+
+- [Deployment](#deployment)
+
+- [Credits](#credits)
+  - [Code](#code)
+  - [Media](#media)
+  - [Acknowledgments](#acknowledgments)
+
+
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-### Existing Features
 
 - __Navigation Bar__
 
@@ -122,6 +141,8 @@ The main focus of the testing is on HTML and CSS as these are the two languages 
 
 I have tested the website across the three major browsers - Goolge, Firefox and Microsoft Edge. For each browser, functionality was tested including links and the responsive design. The website performed as intended and the responsive design was checked using developer tools across multiple devices with structural integrity holding for the various sizes. 
 
+### W3C Validator
+
 The official W3C Markup Validator was used to validate both the html and css of the project to ensure there were no syntax errors within the site. The links to the results for each html page and css stylesheet is below.
 
 1. W3C HTML Markup Validator
@@ -136,9 +157,13 @@ The official W3C Markup Validator was used to validate both the html and css of 
 
 ![W3C CSS Validator ](readme-content/media/w3c-css-validator-results.png)
 
+### Colour Contrast Checks
+
 I have checked the websites color contrast using two tools. The first being WebAim providing information the right colour combinations for foreground and background colours to ensure a good contrast ratio. Secondly, I checked the websites colour contrast using a Color Contrast Accessibility Validator by a11y. The results are shown below.
 
 ![Colour Contrast Report](readme-content/media/colour-contrast.png)
+
+### Lighthouse Tool
 
 I have used Chromes Lighthouse tool to run a test and audit the entire website. The results are shown below.
 
