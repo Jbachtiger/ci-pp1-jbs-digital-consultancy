@@ -12,6 +12,7 @@ JB's Digital Consultancy is a site aimed at promoting digital marketing and webs
 [https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy](https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy)
 
 ## Table of Contents
+- [User Experience](#user-experience-(ux))
 - [Features](#features)
   - [Future Development](#future-development)
 
@@ -32,6 +33,28 @@ JB's Digital Consultancy is a site aimed at promoting digital marketing and webs
   - [Code](#code)
   - [Media](#media)
   - [Acknowledgments](#acknowledgments)
+
+
+
+
+## User Experience (UX)
+### User Stories
+- __Business Owner Goals__
+- As a site owner I want to create a professional, well structured website that generates leads.
+- As a site owner I want to create a website that clean looking website.
+- As a site owner I want to create a website that is informative regarding the services the agency offered.
+- As a site owner I want to make it as easy as possible to navigate the website and allow a user to fill out a contact form.
+
+- __First Time Visitor Goals__
+- I want to find out what services the company offers.
+- I want to find out a bit of background about the company.
+- I want to know why I should use this companies services.
+
+- __Returning Visitors__
+- As a returning visitor I want to be able to find exactly what i'm looking for quickly.
+- As a returning visitor I want to be able to get in contact quickly and easily.
+- As a returning visitor I want to be able to access the companies social media activity to get a feel of what the brands about.
+
 
 
 ## Features 
@@ -152,8 +175,10 @@ The official W3C Markup Validator was used to validate both the html and css of 
 - [services.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjbachtiger.github.io%2Fci-pp1-jbs-digital-consultancy%2Fservices.html)
 - [contact.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjbachtiger.github.io%2Fci-pp1-jbs-digital-consultancy%2Fcontact.html)
 
-2. W3C CSS Markup Validator
+2. W3C CSS Markup Validator - 
 [https://jigsaw.w3.org/css-validator/validator](https://jigsaw.w3.org/css-validator/#validate_by_input+with_options)
+
+Result
 
 ![W3C CSS Validator ](readme-content/media/w3c-css-validator-results.png)
 
