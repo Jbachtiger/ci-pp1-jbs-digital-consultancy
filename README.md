@@ -89,6 +89,26 @@ In this section, you should go over the different parts of your project, and des
 - Currently the form on the contact page uses the Code Institute form dump url as I have not yet learned how to create the script needed in order to make the form function correctly without it.
 - Create an email newsletter signup form.
 
+## Technologies Used
+
+### Languages Used
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+### Frameworks, Libaries and Programs Used
+- [Google Fonts](https://fonts.google.com/) - used to import fonts to website.
+- [Font Awesome](https://fontawesome.com/) - library of icons used for social media and services we offer.
+- [TinyPNG](https://tinypng.com/) - used to compress images.
+- [Canva](https://www.canva.com/) - used to edit and resize images.
+- [Gitpod](https://gitpod.io/projects) - this was my code editor for this project.
+- [Git](https://git-scm.com/) - was used for version control using the terminal through gitpod to commit to Git and push to Github.
+- [Github](https://github.com/) - is used to store the code for this project after being pushed from Git.
+- [Balsamiq](https://balsamiq.com/) - was used to create the wireframes during the design process.
+- [GoogleDev Tools](https://developer.chrome.com/docs/devtools/) - was used to help investigate issues with code and visually see what code was related to which area on the page.
+- [Techsini](http://techsini.com/multi-mockup/index.php) - was used to generate multi-device website mockups.
+[ColorSpace](https://mycolor.space/?hex=%23C8E6C9&sub=1) - used to generate colour pallets for use on website.
+
 ## Testing 
 
 The main focus of the testing is on HTML and CSS as these are the two languages that were used to create the static website. The testing carried out ensures that the functionality and visual aspects of the website all work as intended. Testing will be done using numerous devices and browsers, ensuring all UX is up to scratch as well as testing the websites accessibility, SEO and validation. I have checked the following:
@@ -112,14 +132,9 @@ The official W3C Markup Validator was used to validate both the html and css of 
 - [contact.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjbachtiger.github.io%2Fci-pp1-jbs-digital-consultancy%2Fcontact.html)
 
 2. W3C CSS Markup Validator
-[https://jigsaw.w3.org/css-validator/validator](https://jigsaw.w3.org/css-validator/validator)
+[https://jigsaw.w3.org/css-validator/validator](https://jigsaw.w3.org/css-validator/#validate_by_input+with_options)
 
-### CSS Validator Results
-
-![Contact](readme-content/media/w3c-css-validator-results.png)
-
-
-
+![W3C CSS Validator ](readme-content/media/w3c-css-validator-results.png)
 
 I have checked the websites color contrast using two tools. The first being WebAim providing information the right colour combinations for foreground and background colours to ensure a good contrast ratio. Secondly, I checked the websites colour contrast using a Color Contrast Accessibility Validator by a11y. The results are shown below.
 
@@ -155,16 +170,15 @@ This site was deployed to Github pages by following these steps:
 ## Credits 
 
 ### Code
-1. [Google Fonts](https://fonts.google.com/) - used to import fonts to website.
-2. [Button Optimizer](https://buttonoptimizer.com/) - a button generator tool.
-3. [W3Schools](https://www.w3schools.com/howto/howto_css_three_columns.asp) - utlilsed code to create three columns.
-4. [Love Running Project](https://github.com/Jbachtiger/love-running/blob/main/assets/css/style.css) - used base code for the circle container and zoom effect code.
-5. [CSS Scan](https://getcssscan.com/css-box-shadow-examples) - used code to create a box shadow.
-6. [Font Awesome](https://fontawesome.com/) - Library of icons used for social media and services we offer.
-7. [TinyPNG](https://tinypng.com/) - used to compress images.
+1. [Button Optimizer](https://buttonoptimizer.com/) - a button generator tool.
+2. [W3Schools](https://www.w3schools.com/howto/howto_css_three_columns.asp) - utlilsed code to create three columns.
+3. [Love Running Project](https://github.com/Jbachtiger/love-running/blob/main/assets/css/style.css) - used base code for the circle container and zoom effect code.
+4. [CSS Scan](https://getcssscan.com/css-box-shadow-examples) - used code to create a box shadow.
 
 ### Media
 1. All stock images are royalty free and taken from the following sites: [Unsplash](https://unsplash.com/) and [Raw Pixel](https://www.rawpixel.com/).
 2. Image on about page is a personal profile picture taken by myself.
 
-### Acknowledgments 
+### Acknowledgments
+ - My mentor for their support, advice and patience when reviewing this project with me.
+ -  The Code Institute slack community for always being on hand to ask questions and pointing me in the right direction. 
