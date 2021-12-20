@@ -112,8 +112,11 @@ The official W3C Markup Validator was used to validate both the html and css of 
 - [contact.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjbachtiger.github.io%2Fci-pp1-jbs-digital-consultancy%2Fcontact.html)
 
 2. W3C CSS Markup Validator
-[CSS Results]()
+[https://jigsaw.w3.org/css-validator/validator](https://jigsaw.w3.org/css-validator/validator)
 
+### CSS Validator Results
+
+![Contact](readme-content/media/w3c-css-validator-results.png)
 
 
 
