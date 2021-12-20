@@ -61,10 +61,7 @@ h3 {
     border: 1px solid #ffa600;
     border-radius: 30px;
     background: #ffa600;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ffa600), to(#ffa600));
-    background: -moz-linear-gradient(top, #ffa600, #ffa600);
-    background: linear-gradient(to bottom, #ffa600, #ffa600);
-    font: normal normal bold 18px Open Sans;
+    font: bold 18px "Open Sans";
     color: #ffffff;
     text-decoration: none;
 }
@@ -73,18 +70,12 @@ h3 {
 .button:focus {
     border: 1px solid #ffbf00;
     background: #ffc700;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ffc700), to(#ffc700));
-    background: -moz-linear-gradient(top, #ffc700, #ffc700);
-    background: linear-gradient(to bottom, #ffc700, #ffc700);
     color: #ffffff;
     text-decoration: none;
 }
 
 .button:active {
     background: #996400;
-    background: -webkit-gradient(linear, left top, left bottom, from(#996400), to(#ffa600));
-    background: -moz-linear-gradient(top, #996400, #ffa600);
-    background: linear-gradient(to bottom, #996400, #ffa600);
 }
 
 /* Navigation */
@@ -381,7 +372,7 @@ textarea {
     color: #fff;
     border: 1px solid #ffa600;
     border-radius: 30px;
-    font: normal normal bold 18px Open Sans;
+    font: bold 18px "Open Sans";
     font-size: 120%;
     width: auto;
     padding: 12px 24px;

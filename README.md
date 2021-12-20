@@ -102,7 +102,17 @@ The main focus of the testing is on HTML and CSS as these are the two languages 
 
 I have tested the website across the three major browsers - Goolge, Firefox and Microsoft Edge. For each browser, functionality was tested including links and the responsive design. The website performed as intended and the responsive design was checked using developer tools across multiple devices with structural integrity holding for the various sizes. 
 
-The official W3C Markup Validator was used to validate
+The official W3C Markup Validator was used to validate both the html and css of the project to ensure there were no syntax errors within the site. The links to the results for each html page and css stylesheet is below.
+
+1. W3C HTML Markup Validator
+
+- [index.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjbachtiger.github.io%2Fci-pp1-jbs-digital-consultancy%2Findex.html)
+- [about.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjbachtiger.github.io%2Fci-pp1-jbs-digital-consultancy%2Fabout.html)
+- [services.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjbachtiger.github.io%2Fci-pp1-jbs-digital-consultancy%2Fservices.html)
+- [contact.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjbachtiger.github.io%2Fci-pp1-jbs-digital-consultancy%2Fcontact.html)
+
+2. W3C CSS Markup Validator
+[CSS Results]()
 
 
 
