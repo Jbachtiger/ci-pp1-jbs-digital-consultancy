@@ -2,7 +2,7 @@
 
 JB's Digital Consultancy is a site aimed at promoting digital marketing and website development services. It's purpose is to provide users information on the types of services the agency can provide to help them generate more enquires and sales. It is a way to promote my digital services and generate online enquires through form fills. JB's Digital Consultancy is targeted at small businesses that need help with their marketing/online presence. 
 
-![Responsive Mockup](readme-content/media/website-screenshots.png)
+![Responsive Mockup](readme-content/media/website-mockups.png)
 
 ## Live Site
 
@@ -33,8 +33,6 @@ In this section, you should go over the different parts of your project, and des
 ![Hero Image](readme-content/media/about-hero-image.png)
 
 ![Hero Image](readme-content/media/services-hero-image.png)
-
-![Hero Image](readme-content/media/contact-hero-image.png)
 
 - __Introduction Section__
 
@@ -104,11 +102,11 @@ The main focus of the testing is on HTML and CSS as these are the two languages 
 
 I have tested the website across the three major browsers - Goolge, Firefox and Microsoft Edge. For each browser, functionality was tested including links and the responsive design. The website performed as intended and the responsive design was checked using developer tools across multiple devices with structural integrity holding for the various sizes. 
 
-Each page has been put through the official W3C Validator, the index page and CSS reports are shown below.
+The official W3C Markup Validator was used to validate
 
-![Index HTML Report](readme-content/media/html-checker.png)
 
-![CSS Report](readme-content/media/css-checker.png)
+
+
 
 I have checked the websites color contrast using two tools. The first being WebAim providing information the right colour combinations for foreground and background colours to ensure a good contrast ratio. Secondly, I checked the websites colour contrast using a Color Contrast Accessibility Validator by a11y. The results are shown below.
 

@@ -490,6 +490,10 @@ textarea {
 
 /* For small screen sizes from 500px wide and down */
 @media screen and (max-width: 500px) {
+    .flexbox {
+        padding: 0;
+    }
+
     .icons {
         width: 100%;
         padding: 30px 0;
@@ -508,5 +512,40 @@ textarea {
         width: 275px;
         height: 275px;
         padding: 5px;
+        border-style: none;
+    }
+
+    @keyframes hero-zoom {
+        from {
+            transform: scale(0.8);
+        }
+
+        to {
+            transform: scale(1);
+        }
+    }
+
+    #right-about {
+        padding: 0;
+
+    }
+}
+
+/* For very small screen sizes from 304px wide and down */
+@media screen and (max-width: 304px) {
+
+    .navbar {
+        font-size: 60%;
+    }
+
+    footer {
+        padding-left: 0;
+    }
+
+    #circle-container {
+        width: 275px;
+        height: 275px;
+        padding: 0;
+        margin: 0;
     }
 }
