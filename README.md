@@ -187,7 +187,7 @@ The main focus of the testing is on HTML and CSS as these are the two languages 
 - All forms are working as expected including script checks e.g. if a user fills in a mandatory field in a form an error message is shown, default values are being populated, optimally formatted for better readability and form is correctly linked to Code Institute form dump on submit.
 - Contrast checks should report no errors.
 - Validation checks for HTML and CSS should report no errors. 
-- Lighthouse test scores should be high (above 90).
+- Lighthouse test scores should be high (within 90-100).
 
 ### Browser and Device Testing
 __Browsers__
@@ -260,11 +260,41 @@ Here is a more detaile report of the passed button colour.
 
 I have used Chromes Lighthouse tool to run a test and audit the entire website. The results are shown below.
 
-- Desktop  
-![Desktop Report](readme-content/media/lighthouse-desktop.png)
+- index.html
+  - Desktop  
+![Desktop Report](readme-content/media/lighthouse-desktop-homepage.png)
 
-- Mobile  
-![Mobile Report](readme-content/media/lighthouse-mobile.png)
+  - Mobile  
+![Mobile Report](readme-content/media/lighthouse-mobile-homepage.png)
+
+- about.html
+  - Desktop
+
+  ![Desktop Report](readme-content/media/lighthouse-desktop-about.png)
+  
+  - Mobile 
+
+  ![Mobile Report](readme-content/media/lighthouse-mobile-about.png)
+
+- services.html
+  - Desktop
+
+  ![Desktop Report](readme-content/media/lighthouse-desktop-services.png)
+  
+  - Mobile 
+
+  ![Mobile Report](readme-content/media/lighthouse-mobile-services.png)
+
+  - contact.html
+  - Desktop
+
+  ![Desktop Report](readme-content/media/lighthouse-desktop-contact.png)
+  
+  - Mobile 
+
+  ![Mobile Report](readme-content/media/lighthouse-mobile-contact.png)
+
+All pages have recieved a score above 90 on all 4 categories of performance, accessibility, best practice and SEO showing it is well optimised. 
 
 ### Solved Bugs
 
