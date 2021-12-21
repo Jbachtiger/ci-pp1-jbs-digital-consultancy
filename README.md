@@ -28,6 +28,7 @@ JB's Digital Consultancy is a site aimed at promoting digital marketing and webs
   - [Frameworks, Libaries and Programs Used](#frameworks-libaries-and-programs-used)
 
 - [Testing](#testing)
+  - [Browser and Device Testing](#browser-and-device-testing)
   - [W3C Validator](#w3c-validator)
   - [Colour Contrast Checks](#colour-contrast-checks)
   - [Lighthouse Tool](#lighthouse-tool)
@@ -40,8 +41,6 @@ JB's Digital Consultancy is a site aimed at promoting digital marketing and webs
   - [Code](#code)
   - [Media](#media)
   - [Acknowledgments](#acknowledgments)
-
-
 
 
 ## User Experience
@@ -188,7 +187,31 @@ The main focus of the testing is on HTML and CSS as these are the two languages 
 - Validation checks for HTML and CSS should report no errors. 
 - Lighthouse test scores should be high (above 90).
 
-I have tested the website across the three major browsers - Goolge, Firefox and Microsoft Edge. For each browser, functionality was tested including links and the responsive design. The website performed as intended and the responsive design was checked using developer tools across multiple devices with structural integrity holding for the various sizes. 
+### Browser and Device Testing
+__Browsers__
+
+I have tested the website across the four major browsers including Goolge, Firefox, Microsoft Edge and Safari. For each browser, functionality was tested including links and the responsive design. The website performed as intended and the responsive design was checked using developer tools across multiple devices with structural integrity holding for the various sizes. 
+
+__Devices Tested__
+The website was viewed on a variety of devices of all sizes including:
+- Windows 8.1 Desktop
+- Macbook Pro (13 inch 2015 version)
+- Moto G4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- Iphone 5/SE
+- Iphone 6/7/8
+- Iphone 6/7/8 Plus
+- Iphone X
+- Ipad
+- Ipad Pro
+- Surface Duo
+- Galaxy Fold
+- Nest Hub
+- Nest Hub Max
+
+A large amount of testing was done to ensure all pages displayed correctly, buttons worked and forms submitted. Family members and the Code Institute Slack community was asked to review the website to point out any bugs or user experience issues.
 
 ### W3C Validator
 
@@ -225,6 +248,7 @@ I have used Chromes Lighthouse tool to run a test and audit the entire website. 
 ![Mobile Report](readme-content/media/lighthouse-mobile.png)
 
 ### Solved Bugs
+
 
 ### Known Bugs
 
