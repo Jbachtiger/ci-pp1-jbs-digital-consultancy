@@ -12,7 +12,14 @@ JB's Digital Consultancy is a site aimed at promoting digital marketing and webs
 [https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy](https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy)
 
 ## Table of Contents
-- [User Experience](#user-experience-(ux))
+- [User Experience (UX)](#user-experience)
+  - [User Stories](#user-stories)
+
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Wireframes](#wireframes)
+
 - [Features](#features)
   - [Future Development](#future-development)
 
@@ -37,25 +44,44 @@ JB's Digital Consultancy is a site aimed at promoting digital marketing and webs
 
 
 
-## User Experience (UX)
+## User Experience
 ### User Stories
-- __Business Owner Goals__
+__Business Owner Goals__
 - As a site owner I want to create a professional, well structured website that generates leads.
 - As a site owner I want to create a website that clean looking website.
 - As a site owner I want to create a website that is informative regarding the services the agency offered.
-- As a site owner I want to make it as easy as possible to navigate the website and allow a user to fill out a contact form.
-
-- __First Time Visitor Goals__
+- As a site owner I want to make it as easy as possible to navigate the website and allow a user to fill out a contact form.    
+      
+__First Time Visitor Goals__
 - I want to find out what services the company offers.
 - I want to find out a bit of background about the company.
 - I want to know why I should use this companies services.
 
-- __Returning Visitors__
+ __Returning Visitors__
 - As a returning visitor I want to be able to find exactly what i'm looking for quickly.
 - As a returning visitor I want to be able to get in contact quickly and easily.
 - As a returning visitor I want to be able to access the companies social media activity to get a feel of what the brands about.
 
+## Design
+### Colour Scheme
+- The colour scheme has been carefully chosen to ensure accessability for all.
+- The colours compliment each other to ensure a good contrast ratio.
+- The colours used provide a professional and classy look to the website. 
+- The colour organge was used for CTA buttons to ensure they stand out.
+- The main colours used on the website are green, blue, white and orange inlcuding varying shades.
+- Hex codes for colours: #C8E6C9 (Green), #9ECEE2 (Blue), #2E2E2E (Dark Shade of Grey) and #FFA500 (Orange).
 
+### Typography
+- The website has imported Montserrat Bold and Open Sans Light fonts into the CSS file from Google Fonts.
+- Montserrat bold has been chosen as the main font for all headings. This is becuase it provides good visual seperation between paragraph text and titles whilst always proving great legibility.
+- Open Sans Light has been used for the paragraph text becuase it is easy to read. 
+- The fallback family font is san-serif for both of these in cases where these fonts have difficulty loading. 
+
+### Wireframes
+- [Homepage](readme-content/media/wireframe-homepage.png)
+- [About](readme-content/media/wireframe-about.png)
+- [Services](readme-content/media/wireframe-services.png)
+- [Contact](readme-content/media/wireframe-contact.png)
 
 ## Features 
 
