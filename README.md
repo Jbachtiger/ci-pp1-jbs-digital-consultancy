@@ -175,6 +175,8 @@ __First Time Visitor Goals__
 - [GoogleDev Tools](https://developer.chrome.com/docs/devtools/) - was used to help investigate issues with code and visually see what code was related to which area on the page.
 - [Techsini](http://techsini.com/multi-mockup/index.php) - was used to generate multi-device website mockups.
 [ColorSpace](https://mycolor.space/?hex=%23C8E6C9&sub=1) - used to generate colour pallets for use on website.
+- [a11y](https://color.a11y.com/) - used to check website colour contrast and accessibility.
+- [WebAIM](https://webaim.org/resources/contrastchecker/) - used to check foreground and background contrast.
 
 ## Testing 
 
@@ -233,9 +235,26 @@ Result
 
 ### Colour Contrast Checks
 
-I have checked the websites color contrast using two tools. The first being WebAim providing information the right colour combinations for foreground and background colours to ensure a good contrast ratio. Secondly, I checked the websites colour contrast using a Color Contrast Accessibility Validator by a11y. The results are shown below.
+I have checked the websites color contrast using two tools. The first being WebAim providing information for the right colour combinations for foreground and background colours to ensure a good contrast ratio. Secondly, I checked the websites colour contrast using a Color Contrast Accessibility Validator by a11y. The results are shown below.
 
 ![Colour Contrast Report](readme-content/media/colour-contrast.png)
+
+All the pages passed the colour contrast analysis except for the button element on the services and contact pages. Below are the results for the failed tests for both pages.
+
+![Colour Contrast - Services Page](readme-content/media/colour-contrast-services.png)
+![Colour Contrast - Contact Page](readme-content/media/colour-contrast-contact.png)
+
+Here is a more detailed report of why the button failed the analysis.
+![Colour Contrast - Detailed Failed Report](readme-content/media/colour-contrast-fail.png)
+
+To ensure maximium accessibility, I decided to change the button text colour from white to black to increase the contrast. This fixed the issues and put the ratio well into an acceptable range. See results below for both pages.
+
+![Colour Contrast - Services Page](readme-content/media/colour-contrast-services-pass.png)
+![Colour Contrast - Contact Page](readme-content/media/colour-contrast-contact-pass.png)
+
+Here is a more detaile report of the passed button colour.
+![Colour Contrast - Detailed Pass Report](readme-content/media/colour-contrast-pass.png)
+
 
 ### Lighthouse Tool
 
