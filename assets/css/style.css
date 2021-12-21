@@ -62,7 +62,7 @@ h3 {
     border-radius: 30px;
     background: #ffa600;
     font: bold 18px "Open Sans";
-    color: #ffffff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -369,7 +369,7 @@ textarea {
 #submit-button {
     display: inline-block;
     background-color: #ffa500;
-    color: #fff;
+    color: #000;
     border: 1px solid #ffa600;
     border-radius: 30px;
     font: bold 18px "Open Sans";
