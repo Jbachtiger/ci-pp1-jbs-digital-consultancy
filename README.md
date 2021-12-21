@@ -297,6 +297,20 @@ I have used Chromes Lighthouse tool to run a test and audit the entire website. 
 All pages have recieved a score above 90 on all 4 categories of performance, accessibility, best practice and SEO showing it is well optimised. 
 
 ### Solved Bugs
+1. The contact form wasn't submiting when the submit button was clicked. After further investigation the type input was set to the wrong value of text rather than email. 
+ - [Link to commit](https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy/commit/b1c914e7407c08f26b091b4560dff39ed86c5eec)
+
+2. The contact form was returning an error when submit was clicked. This was because it wasn't linked to any backend for data to be sent to. This was fix by adding the Code Institute form dump url to the action. 
+- [Link to commit](https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy/commit/ba8ccb3b7736ab00dbd3af64e624d5a7b7cdc7a6)
+
+3. The Google Chrome Lighthouse tools flagged up that the order of some H tags were wrong on the contact page. The decision was made to merge the content of the h2 and h3 tag into one h2 tag which resolved the issue.
+- [Link to commit](https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy/commit/d34a5f07a35c94974fed5b7867e8818226345106)
+
+4. The spacing on the homepage intro section didn't look clean and was too cramped together. The padding and margin was reworked which created a much more visually pleasing intro section.
+- [Link to commit](https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy/commit/851294412e4c53626fb42652046ab68788a65945)
+
+5. The hero images didn't look visually pleasing on screen sizes above 1200px. This was due to adding a max-width which once removed fixed the layout issue.
+- [Link to commit](https://github.com/Jbachtiger/ci-pp1-jbs-digital-consultancy/commit/018e47e32b6f9517352f52809839fd57e31665ce)
 
 
 ### Known Bugs
