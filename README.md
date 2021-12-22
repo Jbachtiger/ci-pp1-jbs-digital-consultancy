@@ -2,7 +2,7 @@
 
 JB's Digital Consultancy is a site aimed at promoting digital marketing and website development services. It's purpose is to provide users information on the types of services the agency can provide to help them generate more enquires and sales. It is a way to promote my digital services and generate online enquires through form fills. JB's Digital Consultancy is targeted at small businesses that need help with their marketing/online presence. 
 
-![Responsive Mockup](readme-content/media/website-mockups.png)
+![Responsive Mockup](docs/mockups/website-mockups.png)
 
 ## Live Site
 
@@ -77,10 +77,10 @@ __First Time Visitor Goals__
 - The fallback family font is san-serif for both of these in cases where these fonts have difficulty loading. 
 
 ### Wireframes
-- [Homepage](readme-content/media/wireframe-homepage.png)
-- [About](readme-content/media/wireframe-about.png)
-- [Services](readme-content/media/wireframe-services.png)
-- [Contact](readme-content/media/wireframe-contact.png)
+- [Homepage](docs/wireframes/wireframe-homepage.png)
+- [About](docs/wireframes/wireframe-about.png)
+- [Services](docs/wireframes/wireframe-services.png)
+- [Contact](docs/wireframes/wireframe-contact.png)
 
 ## Features 
 
@@ -89,38 +89,38 @@ __First Time Visitor Goals__
   - The navigation bar is featured on all four pages, is responsive and including links to the Logo, Homepage, About, Services and Contact pages. It is identical in each page to ensure easy navigation and a good user experience. 
   - The purpose of this section is to allow the user to navigate the pages easily across all devices without having to use a back button to get to the next page.
 
-![Nav Bar](readme-content/media/nav-bar.png)
+![Nav Bar](docs/feature-screenshots/nav-bar.png)
 
 - __Hero Images__
 
   - Each page includes a hero image at the top of it that is relevant to that section. The homepage and about pages have images related to Brighton which is where the agency is based. Where as the services and contact page have images that can be associated with those topics more. 
 
-![Hero Image](readme-content/media/index-hero-image.png)
+![Hero Image](docs/feature-screenshots/index-hero-image.png)
 
-![Hero Image](readme-content/media/about-hero-image.png)
+![Hero Image](docs/feature-screenshots/about-hero-image.png)
 
-![Hero Image](readme-content/media/services-hero-image.png)
+![Hero Image](docs/feature-screenshots/services-hero-image.png)
 
 - __Introduction Section__
 
   - The introduction section is one of the first pieces of content you see. This provides a quick overview of who we are, what we do and how our services can help the potential user.  
   - The user will be able to make a quick decision based on this whether the outcomes align with their objectives and if they wish to investigate further.
 
-![Intro](readme-content/media/intro-section.png)
+![Intro](docs/feature-screenshots/intro-section.png)
 
 - __Services We Offer Section__
 
   - This section will allow the user to see exactly  what services the business offers and if there is anything that may align with their needs.
   - It is accompanied with logos for each service that represents that service meaning the user does not have to read the text if they don't wish to in order to still get a good grasp of the service.
 
-![Services we offer](readme-content/media/services-we-offer-section.png)
+![Services we offer](docs/feature-screenshots/services-we-offer-section.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for JB's Digital Consultancy. The links all open to a new tab to allow easy navigation for the user. They also have a hover effect added to them to make it more obvious that they are clickable.
   - The footer a good way to encourage users to connect via social media and spread the word about the business.
 
-![Footer](readme-content/media/footer.png)
+![Footer](docs/feature-screenshots/footer.png)
 
 - __About__
 
@@ -128,7 +128,7 @@ __First Time Visitor Goals__
   - This section builds upon the intro section and provides more in-depth content about the agency to reinforce what has already been said on the homepage.  
   - A circular image of my face has also been added to this page to put a face to a name and build trust with the user. The image has been animated to make it more eye catching.
 
-![About](readme-content/media/about.png)
+![About](docs/feature-screenshots/about.png)
 
 - __Services__
 
@@ -136,7 +136,7 @@ __First Time Visitor Goals__
   - Images have also been used to make the page more attractive and convey the message across throguh words as well as visually.
   - The main purpose of the buttons is for lead generation and the colour orange was chosen as this colour is proven to help increase click through rates.
 
-![Services](readme-content/media/services.png)
+![Services](docs/feature-screenshots/services.png)
 
 - __Contact__
 
@@ -144,7 +144,7 @@ __First Time Visitor Goals__
   - The form has box shadowing on it and a black border on the input fields to make it stand out.
   - The button is orange and has an opacity on it to provide a visual queue to the user when they click on it. 
 
-![Contact](readme-content/media/contact.png)
+![Contact](docs/feature-screenshots/contact.png)
 
 
 ### Future Development
@@ -231,29 +231,29 @@ The official W3C Markup Validator was used to validate both the html and css of 
 
 Result
 
-![W3C CSS Validator ](readme-content/media/w3c-css-validator-results.png)
+![W3C CSS Validator ](docs/testing-and-validation/w3c-css-validator-results.png)
 
 ### Colour Contrast Checks
 
 I have checked the websites color contrast using two tools. The first being WebAim providing information for the right colour combinations for foreground and background colours to ensure a good contrast ratio. Secondly, I checked the websites colour contrast using a Color Contrast Accessibility Validator by a11y. The results are shown below.
 
-![Colour Contrast Report](readme-content/media/colour-contrast.png)
+![Colour Contrast Report](docs/testing-and-validation/colour-contrast.png)
 
 All the pages passed the colour contrast analysis except for the button element on the services and contact pages. Below are the results for the failed tests for both pages.
 
-![Colour Contrast - Services Page](readme-content/media/colour-contrast-services.png)
-![Colour Contrast - Contact Page](readme-content/media/colour-contrast-contact.png)
+![Colour Contrast - Services Page](docs/testing-and-validation/colour-contrast-services.png)
+![Colour Contrast - Contact Page](docs/testing-and-validation/colour-contrast-contact.png)
 
 Here is a more detailed report of why the button failed the analysis.
-![Colour Contrast - Detailed Failed Report](readme-content/media/colour-contrast-fail.png)
+![Colour Contrast - Detailed Failed Report](docs/testing-and-validation/colour-contrast-fail.png)
 
 To ensure maximium accessibility, I decided to change the button text colour from white to black to increase the contrast. This fixed the issues and put the ratio well into an acceptable range. See results below for both pages.
 
-![Colour Contrast - Services Page](readme-content/media/colour-contrast-services-pass.png)
-![Colour Contrast - Contact Page](readme-content/media/colour-contrast-contact-pass.png)
+![Colour Contrast - Services Page](docs/testing-and-validation/colour-contrast-services-pass.png)
+![Colour Contrast - Contact Page](docs/testing-and-validation/colour-contrast-contact-pass.png)
 
 Here is a more detaile report of the passed button colour.
-![Colour Contrast - Detailed Pass Report](readme-content/media/colour-contrast-pass.png)
+![Colour Contrast - Detailed Pass Report](docs/testing-and-validation/colour-contrast-pass.png)
 
 
 ### Lighthouse Tool
@@ -262,37 +262,37 @@ I have used Chromes Lighthouse tool to run a test and audit the entire website. 
 
 - index.html
   - Desktop  
-![Desktop Report](readme-content/media/lighthouse-desktop-homepage.png)
+![Desktop Report](docs/testing-and-validation/lighthouse-desktop-homepage.png)
 
   - Mobile  
-![Mobile Report](readme-content/media/lighthouse-mobile-homepage.png)
+![Mobile Report](docs/testing-and-validation/lighthouse-mobile-homepage.png)
 
 - about.html
   - Desktop
 
-  ![Desktop Report](readme-content/media/lighthouse-desktop-about.png)
+  ![Desktop Report](docs/testing-and-validation/lighthouse-desktop-about.png)
   
   - Mobile 
 
-  ![Mobile Report](readme-content/media/lighthouse-mobile-about.png)
+  ![Mobile Report](docs/testing-and-validation/lighthouse-mobile-about.png)
 
 - services.html
   - Desktop
 
-  ![Desktop Report](readme-content/media/lighthouse-desktop-services.png)
+  ![Desktop Report](docs/testing-and-validation/lighthouse-desktop-services.png)
   
   - Mobile 
 
-  ![Mobile Report](readme-content/media/lighthouse-mobile-services.png)
+  ![Mobile Report](docs/testing-and-validation/lighthouse-mobile-services.png)
 
-  - contact.html
+- contact.html
   - Desktop
 
-  ![Desktop Report](readme-content/media/lighthouse-desktop-contact.png)
+  ![Desktop Report](docs/testing-and-validation/lighthouse-desktop-contact.png)
   
   - Mobile 
 
-  ![Mobile Report](readme-content/media/lighthouse-mobile-contact.png)
+  ![Mobile Report](docs/testing-and-validation/lighthouse-mobile-contact.png)
 
 All pages have recieved a score above 90 on all 4 categories of performance, accessibility, best practice and SEO showing it is well optimised. 
 
