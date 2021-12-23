@@ -1,7 +1,7 @@
 /* Google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap");
 
-/* General */
+/* general */
 * {
     padding: 0;
     margin: 0;
@@ -36,7 +36,7 @@ img {
     width: 100%;
 }
 
-/* Headings and logos */
+/* headings and logos */
 h1,
 h2,
 h3 {
@@ -50,8 +50,8 @@ h3 {
     font-size: 300%;
 }
 
-/* Button */
-/* Credit - button style created using following tool https://buttonoptimizer.com/ and modified by myself */
+/* button */
+/* credit - button style created using following tool https://buttonoptimizer.com/ and modified by myself */
 .button {
     display: inline-block;
     text-align: center;
@@ -78,7 +78,7 @@ h3 {
     background: #996400;
 }
 
-/* Navigation */
+/* navigation */
 
 .navbar {
     background-color: #c8e6c9;
@@ -118,7 +118,7 @@ h3 {
     padding: 0 30px;
 }
 
-/* Hero image */
+/* hero image */
 
 .hero-image {
     height: 600px;
@@ -126,8 +126,8 @@ h3 {
     object-fit: cover;
 }
 
-/* Intro Paragraphs */
-/* Credit - the base code was taken from w3schools and adapted - https://www.w3schools.com/howto/howto_css_three_columns.asp */
+/* intro Paragraphs */
+/* credit - the base code was taken from w3schools and adapted - https://www.w3schools.com/howto/howto_css_three_columns.asp */
 #section-container-intro {
     padding: 50px 0;
 }
@@ -140,7 +140,7 @@ h3 {
     padding-bottom: 40px;
 }
 
-/* Clear floats after the columns */
+/* clear floats after the columns */
 .row:after {
     content: "";
     display: table;
@@ -154,7 +154,7 @@ h3 {
     margin-top: 20px;
 }
 
-/* Homepage - Services we offer section */
+/* homepage - services we offer section */
 #services {
     text-align: center;
     font-weight: 700;
@@ -166,7 +166,7 @@ h3 {
     padding: 32px 0;
 }
 
-/* Services we offer icons */
+/* services we offer icons */
 .icons {
     float: left;
     width: 33.33%;
@@ -181,7 +181,7 @@ h3 {
     padding-bottom: 15px;
 }
 
-/* Footer */
+/* footer */
 footer {
     background-color: #c8e6c9;
     padding-left: 30px;
@@ -212,7 +212,7 @@ footer ul {
     color: black;
 }
 
-/* About us */
+/* about section */
 .flex-about {
     display: flex;
     align-items: center;
@@ -232,7 +232,7 @@ footer ul {
     padding: 50px;
 }
 
-/* Credit - Circle image code taken from Code Institute Love Running Project and adapted */
+/* credit - circle image code taken from Code Institute Love Running Project and adapted */
 
 #circle-container {
     width: 300px;
@@ -257,7 +257,7 @@ footer ul {
 }
 
 /* creates the level of zoom for circle image */
-/* Credit - Code taken from Love Running Project and adapted */
+/* credit - code taken from Love Running Project and adapted */
 
 @keyframes hero-zoom {
     from {
@@ -269,7 +269,7 @@ footer ul {
     }
 }
 
-/* Services */
+/* services */
 
 .column-services-background {
     background-color: rgba(158, 206, 226, 0.3);
@@ -315,12 +315,12 @@ footer ul {
     padding-bottom: 20px;
 }
 
-/* Contact */
-/* Credit - box shadow style taken from https://getcssscan.com/css-box-shadow-examples */
+/* contact */
 .form-section {
     background-color: rgba(158, 206, 226, 0.3);
 }
 
+/* credit - box shadow style taken from https://getcssscan.com/css-box-shadow-examples */
 .form {
     display: flex;
     flex-direction: column;
@@ -388,8 +388,8 @@ textarea {
 
 }
 
-/* Media queries */
-/* For large and medium screens wide and down */
+/* media queries */
+/* for large and medium screens wide and down */
 @media screen and (max-width: 1140px) {
     #right-about {
         padding-top: 20px;
@@ -424,7 +424,7 @@ textarea {
     }
 }
 
-/* For medium screens sizes from 800px wide and down */
+/* for medium screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
     #hero-image {
         height: 400px;
@@ -479,7 +479,7 @@ textarea {
     }
 }
 
-/* For small screen sizes from 500px wide and down */
+/* for small screen sizes from 500px wide and down */
 @media screen and (max-width: 500px) {
     .flexbox {
         padding: 0;
@@ -522,7 +522,7 @@ textarea {
     }
 }
 
-/* For very small screen sizes from 304px wide and down */
+/* for very small screen sizes from 304px wide and down */
 @media screen and (max-width: 304px) {
 
     .navbar {
