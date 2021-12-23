@@ -181,6 +181,7 @@ __First Time Visitor Goals__
 - [a11y](https://color.a11y.com/) - used to check website colour contrast and accessibility.
 - [WebAIM](https://webaim.org/resources/contrastchecker/) - used to check foreground and background contrast.
 - [Fireshot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=en) - this was a Google chrome extension used to take screenshots.
+- [HTML Formatter](https://webformatter.com/html) - used to double check all HTML and CSS code was formatted correctly.
 
 ## Testing 
 
