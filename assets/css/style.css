@@ -120,7 +120,7 @@ h3 {
 
 /* Hero image */
 
-#hero-image {
+.hero-image {
     height: 600px;
     width: 100%;
     object-fit: cover;
