@@ -205,6 +205,7 @@ __Browsers__
 - The website performed as intended and the responsive design was checked using developer tools across multiple devices with structural integrity holding for the various sizes. 
 
 __Devices Tested__
+
 The website was viewed on a variety of devices of all sizes including:
 - Windows 8.1 Desktop (screen resoultions tested in 2560x1080 and 1920x1080)
 - Macbook Pro (13 inch 2015 version)
